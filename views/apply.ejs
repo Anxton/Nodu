@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('head', {title: "Apply"}) %>
+    <body>
+        <%- include('header') %>
+        <center>
+            <form action="register" method="post">
+                <h2 class="reg">Register yourself here :</h2>
+                <br />
+                <label for="name">Name</label><br />
+                <input
+                    type="text"
+                    placeholder="yishun"
+                    class="name"
+                /><br /><br />
+                <label for="info">Why</label><br />
+                <input
+                    type="text"
+                    placeholder="i like your pink sweatshirt"
+                    class="why"
+                /><br /><br />
+                <input type="submit" value="Register" />
+            </form>
+        </center>
+    </body>
+</html>
